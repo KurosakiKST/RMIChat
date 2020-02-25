@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class Server extends UnicastRemoteObject implements ChatInterface {
     private static final long serialVersionUID = 1L;
     private String clientName [] = {"Kyaw Sithu Moe Oo", "Min Thant Maung", "Myat Thiri Htun","Khin Thuzar Neyin","Than Hein", "Soe Win Htut"};
-    private String clientPass [] = {"12345","12345","12345","12345","12345"};
+    private String clientPass [] = {"12345","12345","12345","12345","12345", "12345"};
     private ArrayList<ChatInterface> clientList;
  
     protected Server() throws RemoteException {
